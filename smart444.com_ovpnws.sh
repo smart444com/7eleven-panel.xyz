@@ -1,5 +1,5 @@
 #!/bin/bash
-cp /usr/share/zoneinfo/Asia/Riyadh /etc/localtime
+cp /usr/share/zoneinfo/Asia/Dubai /etc/localtime
 #Database Details
 HOST='64.20.56.167';
 USER='namelips_7eleven';
@@ -318,7 +318,7 @@ username-as-common-name
 verify-client-cert none
 client-cert-not-required
 script-security 3
-max-clients 1024
+max-clients 2500
 client-connect /etc/openvpn/login/connect.sh
 client-disconnect /etc/openvpn/login/disconnect.sh
 ifconfig-pool-persist /etc/openvpn/server/ip_udp.txt
@@ -363,7 +363,7 @@ username-as-common-name
 verify-client-cert none
 client-cert-not-required
 script-security 3
-max-clients 1024
+max-clients 2500
 client-connect /etc/openvpn/login/connect.sh
 client-disconnect /etc/openvpn/login/disconnect.sh
 ifconfig-pool-persist /etc/openvpn/server/ip_tcp.txt
