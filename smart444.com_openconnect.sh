@@ -2,10 +2,10 @@
 cp /usr/share/zoneinfo/Asia/Dubai /etc/localtime
 
 #Database Details
-db_host='64.20.56.167';
-db_user='namelips_7eleven';
-db_pass='namelips_7eleven';
-db_name='namelips_7eleven';
+db_host='80.240.20.126';
+db_user='7eliven';
+db_pass='7eliven';
+db_name='7eliven';
 
 install_require()
 {
